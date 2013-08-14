@@ -8,5 +8,7 @@
 import json
 bikeroutes_json = open('PATH/TO/FILE/data/Bikeroutes.json', 'r')
 # FIXME: Is json_data == bikeroutes_json ? if not from where it's added to the scope!
+# So if it indeed a mistake then uncomment next line, or rename json_data to bikeroutes_json
+# bikeroutes_json = json_data
 bike_routes = json.load(json_data)
 json_data.close()
